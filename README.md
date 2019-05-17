@@ -9,7 +9,11 @@ Each months Dataset is atleast 5-6 Gb in Size. I have used One month dataset whi
 magnet:?xt=urn:btih:7690f71ea949b868080401c749e878f98de34d3d&dn=reddit%5Fdata&tr=http%3A%2F%2Ftracker.pushshift.io%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80
 
 In databse Folder I have cleaned my dataset from the Redit's comment and unneccessary traffic.
-In Creating Dataset Folder I have created a reply to and from for every comment of each parent and it's child's reply.
+In Parent-Child Dataset Folder I have created a reply to and from for every comment of each parent and it's child's reply.
 Where to contains reply to parents and from contains reply from parent. 
+
+Chatbot_database.py Filter's and clears the database.
+
+Creating_training_dataset.py is for making the child and parent's reply to train and test.
 
 I am planning to train my model by applying different algorithms and checking the accuracy. For now I am going to implement a LSTM model and aslo a CNN approach to see how it works. 

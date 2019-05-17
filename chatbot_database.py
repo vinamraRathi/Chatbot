@@ -92,7 +92,7 @@ if __name__ == "__main__":
     row_counter = 0
     paired_rows = 0
     #dataset you will get from torrent
-    with open("/RC_2015-01".format(buffering = 1000)) as f:
+    with open("/Database/RC_2015-01".format(buffering = 1000)) as f:
         for row in f:
             row_counter += 1
             row = json.loads(row)
