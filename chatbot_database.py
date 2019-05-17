@@ -91,8 +91,8 @@ if __name__ == "__main__":
     create_table()
     row_counter = 0
     paired_rows = 0
-
-    with open("/media/vinu/DATA1/RC_2015-01".format(buffering = 1000)) as f:
+    #dataset you will get from torrent
+    with open("/RC_2015-01".format(buffering = 1000)) as f:
         for row in f:
             row_counter += 1
             row = json.loads(row)
