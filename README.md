@@ -9,3 +9,7 @@ Each months Dataset is atleast 5-6 Gb in Size.
 
 One month data can be downloaded throug this link :
 magnet:?xt=urn:btih:7690f71ea949b868080401c749e878f98de34d3d&dn=reddit%5Fdata&tr=http%3A%2F%2Ftracker.pushshift.io%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80
+
+In databse Folder I have cleaned my dataset from the Redit's comment and unneccessary traffic.
+In Creating Dataset Folder I have created a reply to and from for every comment of each parent and it's child's reply.
+Where to contains reply to parents and from contains reply from parent. 
